@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-import { AnimatePresence, motion } from 'framer-motion';
+import { AnimatePresence, m } from 'framer-motion';
 import { CanvasRevealEffect } from './ui/CanvasRevealEffect';
 
 const Approach = () => {
@@ -74,13 +74,13 @@ const Card = ({
 
       <AnimatePresence>
         {hovered && (
-          <motion.div
+          <m.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             className="h-full w-full absolute inset-0"
           >
             {children}
-          </motion.div>
+          </m.div>
         )}
       </AnimatePresence>
 

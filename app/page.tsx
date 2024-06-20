@@ -4,7 +4,6 @@ import Clients from '@/components/Clients';
 import RecentProjects from '@/components/RecentProjects';
 import { FloatingNav } from '@/components/ui/FloatingNav';
 import { navItems } from '@/data';
-import { FaHome } from 'react-icons/fa';
 import Experience from '@/components/Experience';
 import Approach from '@/components/Approach';
 import Footer from '@/components/Footer';
