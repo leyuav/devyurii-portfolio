@@ -26,7 +26,7 @@ const Hero = () => {
             words="Crafting Dynamic and Engaging Web Solutions"
           />
           <p className="text-center md:tracking-wider mb-4 text-md md:text-lg lg:text-2xl">
-            Hi! I&apos;m Yu-Rii, a Junior Frontend Developer based in Poland.
+            Hi! I&apos;m Yu-Rii, a Front-end Developer based in Poland.
           </p>
           <a href="#projects" className="sm:my-5">
             <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
