@@ -1,6 +1,6 @@
 'use client';
 import React, { useState } from 'react';
-import { m, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-motion';
+import { motion, AnimatePresence, useScroll, useMotionValueEvent } from 'framer-motion';
 import { cn } from '@/utils/cn';
 import Link from 'next/link';
 
@@ -38,7 +38,7 @@ export const FloatingNav = ({
 
   return (
     <AnimatePresence mode="wait">
-      <m.div
+      <motion.div
         initial={{
           opacity: 1,
           y: -100,
@@ -67,7 +67,7 @@ export const FloatingNav = ({
             <span className="text-md !cursor-pointer">{navItem.name}</span>
           </Link>
         ))}
-      </m.div>
+      </motion.div>
     </AnimatePresence>
   );
 };
