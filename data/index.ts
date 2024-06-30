@@ -82,19 +82,19 @@ export const projects = [
   },
   {
     id: 2,
+    title: 'Apple-GSAP',
+    des: 'Modern minimalistic apple-like website with GSAP animations.',
+    img: '/p3.png',
+    iconLists: ['/re.svg', '/tail.svg', '/vi.svg'],
+    link: 'https://apple-gsap.vercel.app/',
+  },
+  {
+    id: 3,
     title: 'AI Future Is Here',
     des: 'Modern minimalistic website for showcasing the latest AI advancements and their impact across industries.',
     img: '/p2.png',
     iconLists: ['/re.svg'],
     link: 'https://ai-future-is-here.vercel.app/',
-  },
-  {
-    id: 3,
-    title: 'Apple-GSAP',
-    des: 'Modern minimalistic apple-like website with GSAP animations.',
-    img: '/p3.png',
-    iconLists: ['/re.svg', '/tail.svg'],
-    link: 'https://apple-gsap.vercel.app/',
   },
   {
     id: 4,
