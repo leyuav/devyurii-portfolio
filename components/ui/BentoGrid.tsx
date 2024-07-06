@@ -144,27 +144,29 @@ export const BentoGridItem = ({
             </div>
           )}
           {id === 6 && (
-            <div className="mt-5 relative">
-              <div className={`absolute -bottom-5 right-0`}>
-                <Lottie
-                  key={animationKey}
-                  options={{
-                    loop: false,
-                    autoplay: copied,
-                    animationData: animationData,
-                    rendererSettings: {
-                      preserveAspectRatio: 'xMidYMid slice',
-                    },
-                  }}
+            <div className="flex justify-center">
+              <div className="mt-5 relative">
+                <div className={`absolute -bottom-5 right-0`}>
+                  <Lottie
+                    key={animationKey}
+                    options={{
+                      loop: false,
+                      autoplay: copied,
+                      animationData: animationData,
+                      rendererSettings: {
+                        preserveAspectRatio: 'xMidYMid slice',
+                      },
+                    }}
+                  />
+                </div>
+                <MagicButton
+                  title={copied ? 'Email copied' : 'Copy my email'}
+                  icon={<IoCopyOutline />}
+                  position="left"
+                  otherClasses="`bg-[#161a31]`"
+                  handleClick={handleCopy}
                 />
               </div>
-              <MagicButton
-                title={copied ? 'Email copied' : 'Copy my email'}
-                icon={<IoCopyOutline />}
-                position="left"
-                otherClasses="`bg-[#161a31]`"
-                handleClick={handleCopy}
-              />
             </div>
           )}
         </div>

@@ -20,7 +20,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: 'I am very flexible with time zone communications',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
@@ -31,7 +31,7 @@ export const gridItems = [
   {
     id: 3,
     title: 'My tech stack',
-    description: 'I constantly try to improve',
+    description: 'I am constantly improving',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
     titleClassName: 'justify-center',
@@ -51,7 +51,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: 'Currently learning everything at once',
+    title: 'None available',
     description: 'The Inside Gossip',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
@@ -141,18 +141,6 @@ export const testimonials = [
     name: 'Name',
     title: 'Title',
   },
-  {
-    quote:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt elit at dolor tincidunt, id egestas quam auctor. In ut venenatis velit, a congue lacus. Aliquam interdum placerat urna malesuada viverra. Maecenas at porta diam, ut gravida enim. Proin bibendum neque fermentum tortor sagittis finibus. Integer interdum lacus id elit ornare, eu sagittis enim tincidunt. Etiam ornare feugiat quam, eu.',
-    name: 'Name',
-    title: 'Title',
-  },
-  {
-    quote:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt elit at dolor tincidunt, id egestas quam auctor. In ut venenatis velit, a congue lacus. Aliquam interdum placerat urna malesuada viverra. Maecenas at porta diam, ut gravida enim. Proin bibendum neque fermentum tortor sagittis finibus. Integer interdum lacus id elit ornare, eu sagittis enim tincidunt. Etiam ornare feugiat quam, eu.',
-    name: 'Name',
-    title: 'Title',
-  },
 ];
 
 export const companies = [
@@ -192,30 +180,34 @@ export const workExperience = [
   {
     id: 1,
     title: 'E-learning Content Editor',
-    desc: 'Prepared e-learning content using mAuthor software and ensured content met WCAG accessibility standards',
+    desc: 'Prepared e-learning content using low-code software and implemented WCAG accessibility standards.',
     className: 'md:col-span-2',
     thumbnail: '/exp1.svg',
+    link: 'https://www.linkedin.com/in/leyuav/',
   },
   {
     id: 2,
-    title: 'HVAC assistant',
+    title: 'HVAC Assistant',
     desc: 'Prepared Revit drawings of HVAC systems for single-family houses and conducted data entry.',
-    className: 'md:col-span-2', // change to md:col-span-2
+    className: 'md:col-span-2',
     thumbnail: '/exp2.svg',
+    link: 'https://www.linkedin.com/in/leyuav/',
   },
   {
     id: 3,
     title: 'HVAC Design Assistant',
-    desc: 'Prepared Revit drawings of HVAC systems for hospitals and collaborated with architects/electrical engineers.',
-    className: 'md:col-span-2', // change to md:col-span-2
+    desc: 'Prepared Revit drawings of HVAC systems for hospitals and collaborated with architects.',
+    className: 'md:col-span-2',
     thumbnail: '/exp3.svg',
+    link: 'https://www.linkedin.com/in/leyuav/',
   },
   {
     id: 4,
-    title: 'Amateur Music Producer',
-    desc: 'Worked with music production software such as Ableton Live, Logic Pro, Bitwig. Worked with mixing & mastering projects.',
-    className: 'md:col-span-2', // change to md:col-span-2
+    title: 'Music Producer',
+    desc: 'Proficient in creating relaxed beats using Bitwig, experienced in mixing and mastering projects.',
+    className: 'md:col-span-2',
     thumbnail: '/exp4.svg',
+    link: 'https://www.linkedin.com/in/leyuav/',
   },
 ];
 

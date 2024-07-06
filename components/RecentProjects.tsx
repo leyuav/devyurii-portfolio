@@ -10,7 +10,7 @@ const RecentProjects = () => {
       <h1 className="heading">
         A small selection of <span className="text-purple">hobby projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-4 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-4 mt-4">
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <div
             key={id}
@@ -41,7 +41,7 @@ const RecentProjects = () => {
                         transform: `translateX(-${5 * index * 2}px)`,
                       }}
                     >
-                      <img src={icon} alt={icon} className="p-2" />
+                      <Image src={icon} alt={icon} width={100} height={100} className="p-2" />
                     </div>
                   ))}
                 </div>
