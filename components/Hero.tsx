@@ -29,7 +29,7 @@ const Hero = () => {
             Hi! I&apos;m Yu-Rii, a Front-end Developer based in Poland.
           </p>
           <a href="#projects" className="sm:my-5">
-            <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
+            <MagicButton title="Show projects" icon={<FaLocationArrow />} position="right" />
           </a>
         </div>
       </div>
