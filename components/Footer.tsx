@@ -7,7 +7,7 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <footer className="w-full py-10 md:mb-5" id="contact">
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center dark:bg-grid-white/[0.02] bg-grid-black/[0.2] py-4">
         <h1 className="heading lg:max-w-[45vw]">
           Ready to enhance <span className="text-purple">your</span> digital presence?
         </h1>
